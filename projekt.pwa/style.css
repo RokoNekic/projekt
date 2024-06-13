@@ -1,0 +1,237 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(226, 226, 226);
+    max-width: 1600px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+
+}
+
+header{
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0%;
+    background-color: white;
+}
+
+section{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.navigacija{
+    margin: 0 auto;
+
+}
+
+
+.navigacija ul{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.navigacija li{
+    display: inline-block;
+    padding: 0 30px 0 30px;
+}
+
+.navigacija a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    
+}
+
+.navigacija a:visited{
+    color: black;
+}
+.navigacija a:hover{
+    color: red;
+}
+
+header hr{
+
+    max-width: 95%;
+}
+
+.crta{
+    margin: 0 auto;
+    padding: 0px;
+    height: 1px;
+}
+
+.imeportala{
+    margin: auto;
+    font-size:50px;
+    color: red;
+    text-align: center;
+    padding-bottom:30px;
+}
+
+
+
+
+.prvi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 160px;
+    height: 100%;
+    
+}
+
+.prvi aside{
+    padding-bottom: 20px;
+    display: block;
+    width: 200px;
+    max-width: 100%;
+}
+.sastrane{
+    margin: 0 auto;
+    margin-top: 7px;
+    padding-left: 39px;
+    
+}
+
+.prvi hr{
+    margin: 0 auto;
+    margin-left: 39px;
+    justify-content: right;
+    width: 130px;
+    height: 7px;
+    max-width: 75%;
+    padding-left: 30px;
+    border: none;
+    color: black;
+    background-color: black;
+}
+
+
+
+.prvi article{
+    margin: 0 auto;
+    width: 390px;
+    max-width: 100%;
+    padding-bottom: 20px;
+    
+    
+
+
+}
+img{
+    border-radius: 5px;
+}
+
+.prvi h4{
+    color: rgb(119, 119, 119);
+}
+
+.prvi a{
+    text-decoration: none;
+}
+
+
+.prvi a:visited{
+    color: black;
+}
+.prvi a:hover{
+    color: red;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(180, 178, 178);
+}
+
+
+.clanakbody{
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    max-width: 1300px;
+
+}
+.clanak{
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding-bottom: 50px;
+    height: 100%;
+   
+}
+
+
+.jedan{ 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.clanak img{
+    width: 100%;
+}
+
+.clanak div, input, textarea{
+    justify-content: center;
+    margin: 0 auto;
+    width: 270px;
+
+
+}
+
+.clanak h5{
+    color: rgb(119, 119, 119);
+}
+
+.clanak h4{
+    font-weight: normal;
+}
+
+.clanak h3{
+    font-weight: bold;
+}
+
+
+.formaa{
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.check{
+    width: 270px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 50px;
+    padding-bottom: 500px;
+    height: 100%;
+   
+}
